@@ -53,6 +53,9 @@ if (cobalt_pending_clean_up) {
         "-Wno-unused-command-line-argument",
         "-Wno-unused-function",
 
+        # For v8: don't treat this specific warning as an error on clang
+        "-Wno-error=unused-value",
+
         # musl getaddrinfo implementation null-check static array on Linux
         "-Wno-tautological-pointer-compare",
       ]

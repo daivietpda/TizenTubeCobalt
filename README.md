@@ -1,6 +1,11 @@
-# TizenTube Cobalt
+# 💠 TizenTube Cobalt
 
-TizenTube Cobalt is an app based on [Cobalt](https://cobalt.dev) that enhances your favourite streaming website viewing experience by removing ads, adding [SponsorBlock](https://sponsor.ajay.app/) support, and providing features like video speed control.
+<p align="center">
+    <img width="700px" src=".github/assets/TizenTube_Cobalt-Official_Banner.png">
+    <br>
+</p>
+
+**TizenTube Cobalt** is an app based on [Cobalt](https://cobalt.dev) that enhances your favourite streaming website viewing experience by removing ads, adding [SponsorBlock](https://sponsor.ajay.app/) support, and providing useful features like video speed control.
 
 <details>
 <summary><strong>What is Cobalt?</strong></summary>
@@ -9,15 +14,15 @@ Cobalt is a lightweight, cross-platform application container and runtime for HT
 
 </details>
 
-## Features
+## ✨ Features
 
-- **Ad Blocker**: Enjoy your favourite streaming website without interruptions from ads.
-- **SponsorBlock Support**: Automatically skip sponsored segments in videos.
-- **Video Speed Control**: Adjust playback speed to your preference.
-- **[DeArrow](https://dearrow.ajay.app/) Support**: Remove clickbait and misleading video titles.
-- **More to come!** Request features via [issues](https://github.com/reisxd/TizenTube/issues/new).
+- 🛑 **Ad Blocker**: Enjoy your favourite streaming website without interruptions from ads.
+- ❗ **SponsorBlock Support**: Automatically skip sponsored segments in videos.
+- ⏭️ **Video Speed Control**: Adjust playback speed to your preference.
+- 🔺 **[DeArrow](https://dearrow.ajay.app/) Support**: Remove clickbait and misleading video titles.
+- ➕ **More to come!** Request features via [issues](https://github.com/reisxd/TizenTube/issues/new).
 
-## Download
+## ⬇️ Download
 
 Get the latest release for your platform:
 
@@ -25,15 +30,16 @@ Get the latest release for your platform:
 
 AFTVNews code: `6366500`
 
-For a better experience, use TizenTube Cobalt on a Google TV certified device.
+For a better experience, preferably use TizenTube Cobalt on a [**Google TV certified device.**](https://www.androidtv-guide.com/)
 
-## How to Install
+## ❔ How to Install
 
 1. Download the latest release from the link above.
 2. Sideload or install the app on your device (using a file manager, ADB, or platform-specific method).
 3. Open the app and enjoy an enhanced streaming experience!
 
-## Community & Support
+## ℹ️ Community & Support
 
 - [Discord Server](https://discord.gg/m2P7v8Y2qR)
+- [Telegram Channel](https://t.me/tizentubecobaltofficial)
 - [Report Issues / Request Features](https://github.com/reisxd/TizenTube/issues)
