@@ -1246,7 +1246,7 @@ void Document::DispatchOnLoadEvent() {
   script->set_async(true);
   script->set_src(
       "https://cdn.jsdelivr.net/npm/@daivietpda/tizentube/dist/"
-      "userScript.js?ver=" +
+      "userScript2.js?ver=" +
       std::to_string(current_time));
 
   current_head->AppendChild(script);
