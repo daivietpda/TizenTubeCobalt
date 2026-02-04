@@ -35,6 +35,7 @@ import android.util.Pair;
 import android.util.Size;
 import android.util.SizeF;
 import android.view.Display;
+import android.view.Surface;
 import android.view.InputDevice;
 import android.view.accessibility.AccessibilityManager;
 import android.view.accessibility.CaptioningManager;
@@ -882,5 +883,20 @@ public class StarboardBridge {
   @UsedByNative
   protected String getBrandAndModel() {
     return Settings.Global.getString(appContext.getContentResolver(), "device_name");
+  }
+
+  @SuppressWarnings("unused")
+  @UsedByNative
+  protected String getArchitecture() {
+    return Build.SUPPORTED_ABIS[0];
+  }
+
+  @SuppressWarnings("unused")
+  @UsedByNative
+  protected void setFrameRate(float frameRate) {
+    Activity activity = activityHolder.get();
+    if (activity instanceof CobaltActivity) {
+      ((CobaltActivity) activity).setFrameRate(frameRate);
+    }
   }
 }
